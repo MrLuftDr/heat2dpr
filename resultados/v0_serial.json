@@ -1,0 +1,35 @@
+{
+  "version": "v0_serial",
+  "parametros": {
+    "nx": 400,
+    "ny": 400,
+    "pasos": 200,
+    "repeticiones": 5
+  },
+  "warmup_segundos": 0.0,
+  "tiempos_segundos": [
+    62.79052697299994,
+    62.20055913299984,
+    61.86822218899988,
+    63.67229094200002,
+    64.66859165799997
+  ],
+  "mediana_segundos": 62.79052697299994,
+  "minimo_segundos": 61.86822218899988,
+  "maximo_segundos": 64.66859165799997,
+  "maquina": {
+    "timestamp_utc": "2026-11-21T14:21:49.883697+00:00",
+    "hostname": "mrluft-VirtualBox",
+    "sistema": "Linux",
+    "release": "7.0.0-43-generic",
+    "arquitectura": "x86_64",
+    "procesador": "x86_64",
+    "nucleos_fisicos": 4,
+    "nucleos_logicos": 4,
+    "ram_total_bytes": 8322428928,
+    "python_version": "3.12.3",
+    "numpy_version": "2.5.5",
+    "numba_version": "0.68.1",
+    "numba_threads": 4
+  }
+}
