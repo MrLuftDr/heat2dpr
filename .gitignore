@@ -1,0 +1,23 @@
+@'
+.venv/
+venv_heat2d/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+'@ | Set-Content -Path ".gitignore" -Encoding UTF8
+
+New-Item -ItemType Directory -Force -Path ".vscode" | Out-Null
+
+@'
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+  "python.terminal.activateEnvironment": true,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
+}
+'@ | Set-Content -Path ".vscode\settings.json" -Encoding UTF8
